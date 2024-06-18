@@ -1,6 +1,6 @@
 {
   "name": "@warren-bank/cartamd-plugin-newline-break",
-  "description": "Collection of plugins for the 'BearToCode/carta' markdown editor.",
+  "description": "Carta Plugin: Newline Break",
   "version": "1.0.0",
   "type": "module",
   "license": "GPL-2.0",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/warren-bank/js-cartamd-plugins"
+    "url": "https://github.com/warren-bank/js-cartamd-plugins/tree/cartamd-plugin-newline-break"
   },
   "keywords": [
     "carta",
