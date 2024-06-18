@@ -1,0 +1,45 @@
+{
+  "name": "@warren-bank/cartamd-plugin-newline-break",
+  "description": "Collection of plugins for the 'BearToCode/carta' markdown editor.",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "GPL-2.0",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "mdast-util-newline-to-break": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/mdast": "^4.0.4",
+    "carta-md": "^4.2.1",
+    "typescript": "^5.0.4",
+    "unified": "^11.0.4"
+  },
+  "author": {
+    "name": "Warren R. Bank",
+    "email": "warren.r.bank@gmail.com",
+    "url": "https://github.com/warren-bank"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warren-bank/js-cartamd-plugins"
+  },
+  "keywords": [
+    "carta",
+    "cartamd",
+    "carta-md",
+    "md",
+    "markdown",
+    "extension",
+    "plugin"
+  ]
+}

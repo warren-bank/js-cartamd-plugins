@@ -1,0 +1,20 @@
+{
+  "include": ["./src"],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "src",
+    "typeRoots": ["./node_modules/@types"],
+
+    "checkJs": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": false,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "composite": true,
+    "module": "ESNext",
+    "target": "ESNext"
+  }
+}
